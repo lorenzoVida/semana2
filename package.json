@@ -1,0 +1,17 @@
+{
+  "name": "fundamentos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open --browser chrome --e2e",
+    "tests" : "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.6",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
